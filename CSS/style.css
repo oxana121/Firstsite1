@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   margin: 40px 40px;
+   color: black;
+}
+.container{
+    background-color: #98FB98;
+    max-width: 1200px;
+    margin: auto;
+    bbox-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.head{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.logo{
+    display: flex;
+}
+.image-logo{
+    padding-right: 4px;
+}
+.text-logo{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1090px;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+.left-column{
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 720px;
+}
+.user-profession{
+    margin: 0px ;
+    color: #21406C;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.user-name{
+    margin: 0px;
+    font-family: Roboto;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 16px;
+
+}
+.user-discription{
+    margin: 0;
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 55px;
+
+}
+.features-title{
+    color: #21406C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.features-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item{
+    flex-basis: 50%;
+    max-width: 288px;
+    margin-bottom: 30px;
+}
+.features-image{
+    display: block;
+    margin-bottom: 22px;
+} 
+.features{
+     --animate-duration: 1.3s;
+}
+.features-title-item{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.features-text{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.projects{
+--animate-duration: 1.3s;
+}
+.project-title{
+    margin: 0;
+    margin-bottom: 35px;
+    color: #21406C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.project-slider{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.project-text{
+    display: flex ;
+    flex-basis: 55%;
+    flex-wrap: wrap;
+}
+.project-text-title{
+    margin: 0;
+    flex-basis: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 35px;
+
+}
+.project-time, .project-cost{
+    flex-basis: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+.project-sudtitle, .project-paragraf{
+    margin: 0;
+}
+.project-icom{
+    margin-right: 11px;
+}
+.project-sudtitle{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.project-paragraf{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.swiper-pagination{
+    margin-top: 30px;
+
+
+}
+.swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #21406C;
+}
+.swiper-pagination-bullet-active{
+    background-color: #21406C;
+}
+.right-column{
+    background-color:  #006400;
+    width: 360px;
+}
+.avatar{
+    width: 318px;
+    height: 318px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url('../img/фото1.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    border: 9px solid #ffffff;
+    margin-bottom: 58px;
+}
+.contacts, .tech-skills{
+    color: #ffffff;
+    margin-left:40px;
+    margin-bottom: 40px;
+}
+.contact-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.contact-type{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 20px;
+}
+.contact-link{
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-style: normal;
+    text-decoration-line: underline;
+}
+.tech-skills{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
